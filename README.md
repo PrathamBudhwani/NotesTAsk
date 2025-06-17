@@ -26,16 +26,11 @@ A simple Note-Taking Android app built with **Jetpack Compose**, **Room**, and *
 | Architecture     | MVVM                                   |
 | Minimum SDK      | 31                                     |
 
----
-
-## 📸 Screenshots
-
-> You can add screenshots here after taking them on your emulator/device.
 
 ---
 
 ## 🧠 Architecture
-
+```plaintext
 MainActivity
     └── NoteViewModel
             └── NoteRepository (DAO calls)
